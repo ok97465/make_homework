@@ -49,8 +49,8 @@ for iy in range(3):
     for ix in range(2):
         pos_x = x_offset + ix * x_diff
         pos_y = y_offset + iy * y_diff
-        v1 = randint(0, 5)
-        v2 = randint(0, 5)
+        v1 = randint(2, 15)
+        v2 = randint(2, 5)
         add_vquiz(slide_quiz, v1, v2, False, pos_x, pos_y, "+")
         add_vquiz(slide_solu, v1, v2, True, pos_x, pos_y, "+")
 
@@ -65,8 +65,8 @@ for iy in range(3):
     for ix in range(2):
         pos_x = x_offset + ix * x_diff
         pos_y = y_offset + iy * y_diff
-        v1 = randint(0, 5)
-        v2 = randint(0, 5)
+        v1 = randint(2, 15)
+        v2 = randint(2, 5)
         add_hquiz(slide_quiz, v1, v2, False, pos_x, pos_y, "+")
         add_hquiz(slide_solu, v1, v2, True, pos_x, pos_y, "+")
 
